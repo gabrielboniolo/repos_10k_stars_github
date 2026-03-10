@@ -31,7 +31,7 @@ for repo in repo_dicts:
     hover_texts.append(hover_text)
 
 # Executando o plotly com os dados
-title = "Projetos em Python com mais estrelas no GitHub"
+title = "Projetos em Python com mais de 10k estrelas no GitHub"
 labels = {"x": "Repositórios", "y": "Estrelas"}
 
 fig = px.bar(
